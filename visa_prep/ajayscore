@@ -1,0 +1,6 @@
+t = int(input())
+for a in range(t):
+    x,n = map(int,input().split())
+    y = int(x/10) #number of points for each tc
+    points = n*y #number of points scored by ajay
+    print(points)
